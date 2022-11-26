@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>Write</title>
+</head>
+<style>
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.singlePost{
+  font-family: "Lora", serif;
+  width: 85%;
+  margin: auto ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back a{
+  text-decoration: none;
+  font-size:3vmin;
+  color: #484872;
+  font-weight: 500; 
+}
+.back{
+  margin-top: 2vmin;
+  margin-left: 3vmin;
+  color: teal;
+  position:sticky;
+  top:3vmin;
+  width: fit-content;
+}
+.back:hover a{
+  color: #fc036b;
+}
+.singlePostWrapper {
+  padding-bottom: 5vmin ;
+  padding: 0;
+  padding-right: 0;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 5vmin;
+}
+
+.singlePostTitle {
+  text-align: center;
+  color: #484872;
+  margin:2vmin auto 4vmin auto;
+  font-size:6vmin;
+  font-family: "Lora", sans-serif;
+}
+
+.singlePostEdit {
+  text-align: right;
+  font-size: 18px;
+  margin: 3vmin auto;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin: 5vmin auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #fc036b;;
+  font-family: "Lora", sans-serif;
+}
+
+.singlePostAuthor{
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight:700;
+  color: #484872;
+}
+
+.singlePostDesc {
+  color: #7c7c7c;
+  font-size:3vmin;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 10vmin;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: darkslateblue;
+}
+
+.social-icon{
+text-align: right;
+width: fit-content;
+margin-bottom: 8vmin;
+font-size: large;
+}
+.singlePosticon i{
+margin-right:2vmin;
+font-size: 4vmin;
+
+
+}
+.singlePosticon:first-child {
+  color: tomato;
+  cursor: pointer; 
+}
+.singlePosticon:nth-of-type(2) {
+  color: tomato;
+  margin-left: 1vmin;
+  cursor: pointer; 
+}
+.singlePosticon:nth-of-type(3) {
+  color: rgb(66, 66, 163);
+  margin-left: 1vmin;
+  cursor: pointer; 
+}
+.singlePosticon:nth-of-type(4) {
+  color:teal;
+  margin-left: 1vmin;
+  cursor: pointer; 
+}
+.singlePosticon:nth-of-type(5) {
+  color:#7c7c7c;
+  margin-left: 1vmin;
+  cursor: pointer; 
+}
+.footer-icon{
+  background: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  font-size: 18px;
+  margin: 3vmin auto;
+  padding: 8vmin 0;
+}
+
+
+.singlePostfoot, .singlePostrate{
+text-align:center;
+margin: 0 10vmin;
+}
+.singlePostfoot i, .singlePostrate i{
+margin-left: 1.5vmin;
+font-size: 3vmin;
+cursor: pointer;
+}
+</style>
+
+
+<body>
+  <div class="back">
+  <a href="main.html" class="ctn"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+</div>
+<div class="singlePost">
+    <div class="singlePostWrapper">
+      <img
+        class="singlePostImg"
+        src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" />
+      <h1 class="singlePostTitle">
+        TITLE OF POST  
+        <br>
+        <div class="singlePostEdit">
+          <i class="singlePostIcon far fa-edit"></i>
+          <i class="singlePostIcon far fa-trash-alt"></i>
+        </div>
+      </h1>
+      <div class="singlePostInfo">
+        <span>
+          Author:
+          <a href="#" class="singlePostAuthor">VISHAL</a>
+        </span>
+        <span>1 day ago</span>
+      </div>
+      <p class="singlePostDesc">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
+        quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
+        Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi
+        eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+        error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
+        impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
+        odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
+        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
+        a odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
+        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
+        a odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
+        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
+        a odit modi eos!
+        <br />
+        <br />
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
+        quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
+        Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi
+        eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
+        error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
+        impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
+        odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
+        iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
+        a odit modi eos! Lorem, ipsum dolor sit amet consectetur.
+      </p>
+    <div class="social-icon">
+        <i class="singlePosticon fa fa-thumbs-o-up" aria-hidden="true"></i>
+        <i class="singlePosticon fa fa-thumbs-o-down" aria-hidden="true"></i>
+        <i class="singlePosticon fa fa-share-square-o" aria-hidden="true"></i>
+        <i class="singlePosticon fa fa-bookmark-o" aria-hidden="true"></i>
+        <i class="singlePosticon fa fa-download" aria-hidden="true"></i>
+    </div>
+
+    <hr>
+
+    <div class="footer-icon">
+    <div class="singlePostrate">
+      <h4>Rate This Blog</h4>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+
+    <div class="singlePostfoot">
+      <h4>Connect With US</h4>
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+      <i class="fa fa-youtube" aria-hidden="true"></i>
+    </div>
+
+  </div>
+    </div>
+  </div>
+</body>
+</html>
